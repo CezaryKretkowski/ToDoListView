@@ -1,0 +1,121 @@
+.addTask{
+    
+    height: 85.5vh;
+    border-radius: 25px;
+    background-color: rgba(202, 202, 202, 0.5);
+}
+.form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.TitleInput{
+    width: 50%;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+}
+.TitleInput:focus{
+    border:none;
+    outline: none;
+}
+.TitleInput:disabled{
+    font-style: italic; 
+    color:rgb(100, 100, 100);
+}
+.TitleInput:active{
+    color:black;
+}
+.SectionForm{
+    
+    border-bottom-style: solid;
+    border-bottom-color:black ;
+    border-bottom-width: 1px;
+   
+}
+.TimeInput{
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+}
+.TimeInput:active{
+    color: black;
+}
+.TimeInput:disabled{
+    font-style: italic; 
+    color:rgb(100, 100, 100);
+}
+.TimeInput:focus{
+    outline: none;
+}
+.TextArea{
+    width: 100%;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 5%;
+}
+.TextArea{
+    outline: none;
+}
+.TextArea:active{
+    color: black;
+}
+.TextArea:disabled{
+    font-style: italic; 
+    color:rgb(100, 100, 100);
+}
+.deletButton{
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 40%;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(170, 0, 0);
+    font-size: 16px;
+
+    color: white;
+}
+.CancelButton{
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 40%;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.deletButton:hover{
+    background-color: rgb(100, 0, 0);
+}
+.CancelButton:hover{
+    background-color: rgba(200, 200, 200, 1);
+}
+.edditButton{
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 40%;
+    border: none;
+    margin-left: 20px;
+    background-color: rgb(254, 127, 0);
+    font-size: 16px;
+
+    color: white;
+}
+.edditButton:hover{
+    background-color: rgb(200, 100, 0);
+}

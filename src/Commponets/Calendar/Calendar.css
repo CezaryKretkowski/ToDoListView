@@ -1,0 +1,23 @@
+.Calendar{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 79%;
+    height: 92%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.Header{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* border-radius: 25px;  */
+    background-color:rgba(255, 255, 255, 0.7);
+    
+}
+.calendar-container {
+    background-color:rgba(255, 255, 255, 0.7);
+
+    overflow: auto;
+    height: 94%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+ }

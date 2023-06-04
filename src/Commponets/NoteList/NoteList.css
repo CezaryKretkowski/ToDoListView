@@ -1,0 +1,46 @@
+.NoteList{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 79%;
+    height: 92%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.Header{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* border-radius: 25px;  */
+    background-color:rgba(255, 255, 255, 0.7);
+    
+}
+.Col1{
+    width: 100%;
+    padding: 1px;
+    /* float: left;
+    padding-left: 3%; */
+    
+}
+.Note{
+    height: 230px;
+    /* width: 31%; */
+    margin:5px;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+.TextAreaNote{
+    width: 95%;
+    height: 70%;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(214, 216, 203, 0.4);
+    margin-bottom: 5%;
+}
+.TextAreaNote{
+    outline: none;
+}

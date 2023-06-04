@@ -1,0 +1,33 @@
+.NavBar{
+    text-align: center;
+    color: #ffffff;
+    margin: 2%;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    width: 15%;
+    height: 92%;
+    float: left;
+}
+.Links{
+    color: #ffffff;
+    text-decoration: none;
+}
+.Links:hover{
+    color: rgb(0, 0, 0);
+}
+.MenuButton{
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+.MenuButton:hover{
+    border-radius: 25px;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.Ikon{
+    padding-top: 1px;
+}
+.h2{
+   padding-left: 27%; 
+}

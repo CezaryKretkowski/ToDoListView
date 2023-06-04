@@ -1,0 +1,37 @@
+.DashBoard{
+    float: left;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 79%;
+    height: 92%;
+    margin-top: 2%;
+    border-radius: 25px;
+}
+.Header{
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /* border-radius: 25px;  */
+    background-color:rgba(255, 255, 255, 0.7);
+    
+}
+.TaskTody{
+    float: left;
+    width: 50%;
+    height: 35vh;
+    background-color: rgba(255, 255, 255,0.5);
+
+}
+.Clock{
+    float: left;
+    width: 50%;
+    height: 35vh;
+    background-color: rgba(231, 231, 231,0.5);
+    
+}
+.Notes{
+    background-color: rgba(240, 240, 240,0.5); 
+    height: 49vh;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+

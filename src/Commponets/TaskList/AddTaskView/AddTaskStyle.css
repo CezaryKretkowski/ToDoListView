@@ -1,0 +1,85 @@
+.addTask{
+    
+    height: 85.5vh;
+    border-radius: 25px;
+    background-color: rgba(202, 202, 202, 0.5);
+}
+.form{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.TitleInput{
+    width: 50%;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+}
+.TitleInput:focus{
+    border:none;
+    outline: none;
+}
+.SectionForm{
+    
+    border-bottom-style: solid;
+    border-bottom-color:black ;
+    border-bottom-width: 1px;
+   
+}
+.TimeInput{
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 5%;
+}
+.TimeInput:focus{
+    outline: none;
+}
+.TextArea{
+    width: 100%;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 5%;
+}
+.TextArea{
+    outline: none;
+}
+.AddButton{
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 40%;
+    border: none;
+    margin-left: 20px;
+    background-color: darkblue;
+    font-size: 16px;
+
+    color: white;
+}
+.CancelButton{
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    width: 40%;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.AddButton:hover{
+    background-color: rgb(0, 0, 100);
+}
+.CancelButton:hover{
+    background-color: rgba(200, 200, 200, 1);
+}
